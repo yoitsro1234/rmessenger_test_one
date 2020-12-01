@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Welcome to rMessenger! </title>
+        <script src="messenger_page.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="messenger_page.css">
+    </head>
+
+    <body>    
+        <span id="logout_button_span">
+            <button id="logout_button" class="btn btn-danger" onclick="logout()">Logout [-->]</button>
+            <br>
+            <br>
+            <br>
+            <br>
+        </span>
+        <h2 id="user_greet">Welcome, user!</h5>
+        <br>
+        <br>
+        <input type="text" id="room_input" placeholder="--Enter Room Name Here--">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="addroombutton" class="btn btn-info" onclick="addRoom()">Join Room</button>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <h3>Trending Rooms</h3>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.733);
+    color: whitesmoke;
+}
+
+#logout_button_span{
+    text-align: right;
+}
+
+#addroombutton{
+    background-color: purple!important;
+}
+
+#logout_button{
+    background-color: blue!important;
+}
+
+#room_input{
+    color: rebeccapurple!important;
+}
