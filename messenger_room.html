@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room on rMessenger</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <script src="messenger_room.js"></script>
+            <link rel="stylesheet" type="text/css" href="messenger_room.css">
+    </head>
+    <body>
+        <h2>rMessenger</h2>
+        <h3 id="room_name_header" onload="room_display()">Room : </h3>
+        <div id="output" class="container">
+
+        </div>
+        <input type="text" id="msg_input">
+        <button onclick="send()" id="sendbtn">Send</button>
+    </body>
+</html>
